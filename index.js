@@ -58,4 +58,4 @@ let myObject ={
   nestedPartner : "Miss Piggy" 
   }
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
-const {muppetName, color, song, job, partner, song2, song4, nestedJob, nestedPartner} = myObject;
+let {muppetName, color, song, job, partner, song2, song4, nestedJob, nestedPartner} = myObject;
